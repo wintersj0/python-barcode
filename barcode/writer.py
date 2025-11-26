@@ -130,8 +130,8 @@ class BaseWriter:
         }
         self.module_width = 10
         self.module_height = 10
-        self.font_path = os.path.join(PATH, "fonts", "DejaVuSansMono.ttf")
-        self.font_size = 10
+        self.font_path = os.path.join(PATH, "fonts", "OpenDyslexic-Regular.otf")
+        self.font_size = 7
         self.quiet_zone = 6.5
         self.background = "white"
         self.foreground = "black"
