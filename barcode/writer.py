@@ -381,7 +381,7 @@ class SVGWriter(BaseWriter):
                 "y": SIZE.format(ypos),
                 "style": (
                     f"fill:{self.foreground};"
-                    f"font-size:7pt;text-anchor:middle;font-family:OpenDyslexic-Regular;"
+                    f"font-size:7pt;text-anchor:middle;font-family:'OpenDyslexic';"
                 ),
             }
             _set_attributes(element, **attributes)
